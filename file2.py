@@ -1,0 +1,5 @@
+file=open("Myfile2.txt","w")
+name=input("Enter any name :")
+age=int(input("Enter Age :"))
+file.write(name+"\t"+str(age))
+file.close()
